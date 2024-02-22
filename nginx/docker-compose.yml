@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  my-flask-app:
+    build: .
+    ports:
+      - "8080:5000"
+
